@@ -62,7 +62,7 @@ export function MainView() {
               type="text"
               id="search-input"
               className="h-12 pl-12 outline-none text-black font-medium bg-white rounded-3xl text-lg placeholder-black/50 max-w-full w-[50rem]"
-              placeholder="Search for songs,artists or Albums"
+              placeholder="Search for songs, artists or Albums"
             />
           </div>
           <DropdownMenu open={open} onOpenChange={setOpen}>
@@ -113,11 +113,11 @@ export function MainView() {
             <span className="text-6xl flex mt-2 font-bold text-white">
               The Second Step: <br></br>Chapter One
             </span>
-            <p className="ml-2 mt-4 text-xl font-bold text-black">TREASURE</p>
+            <p className="ml-2 mt-6 text-xl font-bold text-black">TREASURE</p>
             <Button
               onclick="#"
               variant="contained"
-              class="bg-blue-700 hover:bg-blue-700 text-white font-bold ml-2 py-2 px-5 mt-4 rounded"
+              class="bg-blue-700 hover:bg-blue-700 text-white font-bold ml-2 py-2 mr-3 px-5 mt-6 rounded"
             >
               Listen Now
             </Button>

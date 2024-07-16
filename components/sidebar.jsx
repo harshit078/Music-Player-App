@@ -3,7 +3,9 @@ import { Icons } from "@/components/icons";
 export function Sidebar() {
   return (
     <div className="bg-black p-6">
-      <Icons.spotify className="h-10 w-auto text-white" />
+      <span className="text-3xl font-semibold text-white">
+        Music Player
+      </span>
       <ul className="mt-9 space-y-4">
         <p className="mr-2 mt-6 text-sm font-semibold text-slate-400 group-hover:text-white">
           Features
