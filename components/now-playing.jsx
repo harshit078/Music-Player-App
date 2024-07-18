@@ -92,11 +92,8 @@ export function NowPlaying() {
           </span>
         </li>
       </ul>
-      <Button
-        variant="contained"
-        class="bg-slate-300 text-black font-bold py-3 px-14 mt-9 rounded-xl"
-      >
-        Create A Playlist
+      <Button className="mx-2 p-1 mt-8 bg-slate-300 text-black py-3 px-14  rounded-xl">
+        Create a playlist
       </Button>
     </div>
   );

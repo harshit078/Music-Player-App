@@ -114,12 +114,8 @@ export function MainView() {
               The Second Step: <br></br>Chapter One
             </span>
             <p className="ml-2 mt-6 text-xl font-bold text-black">TREASURE</p>
-            <Button
-              onclick="#"
-              variant="contained"
-              class="bg-blue-700 hover:bg-blue-700 text-white font-bold ml-2 py-2 mr-3 px-5 mt-6 rounded"
-            >
-              Listen Now
+            <Button className="mx-2 p-1 mt-4 bg-blue-600 text-white py-3 px-10 rounded-xl">
+              Create a playlist
             </Button>
             <img
               className="w-[380px] h-[380px] -right-0 bottom-0 absolute rounded-3xl shadow-2xl"
